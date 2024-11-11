@@ -1,9 +1,11 @@
-import http from "http";
-
+// import http from "http";
+import app from "./src/app"
 const PORT = 3000;
 
 const rotas = {
-    "/": "Curso de NODE.JS"
+    "/": "Express APi ",
+    "/Livros": "Entrei na rota livros",
+    "/Autores": "Entrei na rota aturores"
 }
 
 const server = http.createServer((req, res)=>{
